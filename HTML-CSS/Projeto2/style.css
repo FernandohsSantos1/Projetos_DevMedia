@@ -1,0 +1,44 @@
+body {
+    margin: 50px, auto;
+    text-align: center;
+}
+div{
+    background-color: rgb(249, 249, 250);
+    padding-bottom: 50px;
+    border-radius: 15px;
+    max-width: 1300px ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 36px;
+    font-family: Verdana;
+    
+}
+h2 {
+    font-family: Tahoma;
+    font-size: 24px;
+}
+img {
+    width: 250px;
+}
+p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgb(227, 84, 41);
+    color:rgb(249, 249, 250)
+}
+span {
+    font-weight: bold;
+}
