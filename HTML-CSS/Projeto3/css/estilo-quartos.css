@@ -1,0 +1,28 @@
+.titulo-galeria {
+    height: 30vh;
+    background-image: url("../assets/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .quartos-img{
+    width: 33%;
+    padding-bottom: 10px;
+  }
+  
+  .quarto-informacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .quarto-informacoes li {
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+  }
