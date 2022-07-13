@@ -6,8 +6,8 @@ Casos a quantidade de dias for maior que 15, o juros é de 10%, senão, o juros 
 
 Foram colocados em prática os seguintes conceitos:
 
-Variáveis
-Operadores
-Tipos de dados
-Input
-Estruturas condicionais
+  - Variáveis
+  - Operadores
+  - Tipos de dados
+  - Input
+  - Estruturas condicionais
