@@ -6,7 +6,7 @@ Utilizando conteúdos de JavaScript, para praticar os seguintes conceitos:
 
     - Variáveis
     - Operadores
-    -Tipos de dados
+    - Tipos de dados
     - Estruturas condicionais
     - Inputs
     - Arrays
