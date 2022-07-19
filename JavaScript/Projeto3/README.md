@@ -7,14 +7,14 @@ A proposta desse projeto é criar uma aplicação que exibe duas listas de chuva
 
 Ao desenvolver esse projeto, foi colocado em prática os conceitos de:
 
-    Variáveis e constantes
-    Operadores
-    Estruturas de condição
-    Estruturas de repetição
-    Data
-    Objetos
-    Arrays
-    Manipulação de Strings
-    Manipulação de Arrays
-    Manipulação de Data
-    Funções
+    - Variáveis e constantes
+    - Operadores
+    - Estruturas de condição
+    - Estruturas de repetição
+    - Data
+    - Objetos
+    - Arrays
+    - Manipulação de Strings
+    - Manipulação de Arrays
+    - Manipulação de Data
+    - Funções
