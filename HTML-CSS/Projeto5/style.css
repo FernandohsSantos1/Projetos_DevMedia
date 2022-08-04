@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+.topo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+}
+
+.container{
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cabecalho .titulo{
+    margin-left: 10px;
+    font-size: 22px;
+    color: #5d15d1
+}
+
+.cabecalho img {
+    height: 32px;
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+    background-image: url('assets/bahia.jpg');
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.forms {
+    margin: 60px auto;
+    background-color: #fff;
+}
+
+.titulo-forms{
+    background-color: #5d15d1;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-forms img{
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.titulo-forms h1 {
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.forms-interno{
+    padding: 30px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-interno h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.forms-interno .dados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-interno .dados input, .forms-interno .dados select{
+    height: 32px;
+    padding: 0 5px;
+    margin: 10px 0;
+}
+
+.forms-interno .dados label{
+    font-size: 16px;
+}
+
+.forms-interno .datas{
+    display: flex;
+    flex-direction: row;
+}
+
+.forms-interno .meta input{
+    width: 95% ;
+    justify-content: space-between
+}
+
+.forms-interno .meta select {
+    width: 97.5% ;
+    justify-content: space-between
+}
+
+.forms-interno .volta input, .forms-interno .volta label, .forms-interno .volta select{
+    margin-left: 2%;
+}
+
+.forms-interno .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+}
+
+.forms-interno .box input{
+    height: 15px;
+    margin-right: 5px;
+}
+
+.forms-interno .box .pref{
+    margin-left: 36px;
+}
+
+.botao {
+    background-color: #5d15d1;
+    width: 160px;
+    height: 32px;
+    border: none;
+    font-size: 16px;
+    color:#fff;
+    margin-top: 12px;
+}
+
+.botao:hover{
+    color: grey
+}
+
+.ofertas, .anuncio{
+    width: 90%;
+    height: auto;
+    margin: 32px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertas h2, .anuncio h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ofertas h3, .anuncio h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+.imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-principal, .img-anuncio {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.imgs-secundarias {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgs-secundarias figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.img-principal img, .imgs-secundarias img, .img-anuncio img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.img-principal figcaption, .imgs-secundarias figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.texto {
+    width: 92%;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: -2px;
+}
+
+.texto h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.texto p {
+    margin-top: 15px;
+    color: grey;
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #5d15d1;
+    margin-top: 122px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rodape h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.rede-social div, .contato div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.rodape img {
+    width: 18px;
+    margin-right: 5px;
+}
